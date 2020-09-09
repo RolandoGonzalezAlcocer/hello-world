@@ -1,4 +1,8 @@
-let name = "Rolando"
-let last_name = "Gzz"
-name = name + last_name
-basic.showString(name)
+input.onButtonPressed(Button.A, function () {
+    basic.showString("Hello World!")
+    basic.showIcon(IconNames.Heart)
+})
+basic.showNumber(23)
+basic.forever(function () {
+    basic.showString("...")
+})
